@@ -1,5 +1,13 @@
 # xstate
 
+## 4.32.2
+
+### Patch Changes
+
+- [#3422](https://github.com/statelyai/xstate/pull/3422) [`e35493f59`](https://github.com/statelyai/xstate/commit/e35493f59d277ca57f0982417d5ba3bca0a352ed) Thanks [@Andarist](https://github.com/Andarist)! - Fixed an issue with parallel regions not always being correctly reentered on external transitions of the containing parallel state targeting another region within that parallel state.
+
+* [#3424](https://github.com/statelyai/xstate/pull/3424) [`88d540eb8`](https://github.com/statelyai/xstate/commit/88d540eb8e0b659c9621cc5c365bd626a000c1d7) Thanks [@Andarist](https://github.com/Andarist)! - Fixed an issue with targeted ancestors not being correctly reentered during external transitions.
+
 ## 4.32.1
 
 ### Patch Changes
